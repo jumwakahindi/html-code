@@ -10,6 +10,16 @@
     .set1{
         color:red;
     }
+    .box{
+        height:30px;
+        width:400px;
+        box-shadow:5px 5px 5px red;
+        background-color:green;
+        border-radius:15px;
+    }
+    marquee{
+        text-shadow:5px 5px 5px black;
+    }
 </style>
 <body>
         <header>
@@ -26,19 +36,19 @@
         </header>
         <main>
         <!--Inline CSS-->
-        <h2 style="background-color:green;color:black">ST.THERESE MBOONI GIRLS' HIGH SCHOOL</h2>
-        <h4>Motto:Unlocking the girl child potential</h4>
-        <h4>Mission:To provide a quality education that develops the whole person.</h4>
+        <h2 style="background-color:green;color:black; text-decoration:underline;">ST.THERESE MBOONI GIRLS' HIGH SCHOOL</h2>
+        <h4 style="font-style:italics; font-size:25px; color:blue; text-align:center;"><span style="color:black;">Motto:</span>Unlocking the girl child potential</h4>
+        <h4 style="font-style:italics; font-size:25px; color:blue; text-align:center; "><span style="color:black;">Mission:</span>To provide a quality education that develops the whole person.</h4>
         <hr>
         <P> <i>St Therese Mbooni Girls' High scool</i> is a catholic sponsored national school.</P>
         <p>It started like a local college but it is now a top performing national school wellknown in the country.</p>
         <p>It has two deputies because of its popolation, 22 classes and more than 45 teachers.</p>
-        
-        <h3><marquee>Explore the vibrant life at St. Therese Mbooni Girls through photos, performance and students performance. </marquee></h3>
-        <p>Apply for vacancy deadline 14<sup>th</sup>April 2025.</p>
-        <p>Enjoy pure H<sub>2</sub>o from Mbooni Hills.</p>
+        <div class="box">
+        <marquee style="font-weight:bold;">Explore the vibrant life at St. Therese Mbooni Girls through photos, performance and students performance.</marquee></div>
+        <p style="text-align:right; text-transform:uppercase;">Apply for vacancy deadline 14<sup>th</sup>April 2025.</p>
+        <p style="text-align:left; text-transform:capitalize;">Enjoy pure H<sub>2</sub>o from Mbooni Hills.</p>
 
-       <p><b>Below is an image of Mbooni Girls' students</b></p> 
+       <p style="font-size:25px; font-weight:bold; text-align:center;"><b>Below is an image of Mbooni Girls' students</b></p> 
        <img src="mm.jpg">
        
        <p>Don't be stressed you can easily access our school using the google map below </p>
@@ -52,6 +62,7 @@
 
        <!--Inline CSS-->
        <h1 style="background-color:green;color:black">REGISTER TO JOIN OUR SCHOOL</h1>
+       <p>Registration fee was <span style="text-decoration:line-through;">1500</span> but now is 1300.</p>
        <hr>
        <form>
         <fieldset>
