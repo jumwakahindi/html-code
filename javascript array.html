@@ -7,12 +7,21 @@
 </head>
 <body>
  <h1>JS Array</h1> 
- <p id="demo"></p>  
+ <p id="demo"></p> 
+ <h2>Methods of arrays</h2>
+ <p id="clothes"></p>
+ <p id="clothes1"></p>
+ <p id="clothes2"></p> 
  <script>
     var friends=[
         "Joyce","Preaan","Angel"
     ]
     document.getElementById("demo").innerHTML=friends[0]
+    
+    var clothes=["Dress","Skirt","Shirt"];
+    document.getElementById("clothes").innerHTML=clothes.join("*");
+    document.getElementById("clothes1").innerHTML=clothes.pop();
+    document.getElementById("clothes2").innerHTML=clothes;
  </script>
 </body>
 </html>
